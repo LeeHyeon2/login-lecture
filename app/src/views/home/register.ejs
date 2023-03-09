@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/css/home/login.css">
-    <script src="/js/home/login.js" defer></script>
+    <script src="/js/home/register.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -16,9 +16,11 @@
         <div class="form">
           <form class="login-form">
             <input id="id" type="text" placeholder="아이디"/>
+            <input id="name" type="password" placeholder="이름"/>
             <input id="password" type="password" placeholder="비밀번호"/>
-            <p id="button">login</p>
-            <p class="message">회원이 아니십니까? <a href="/register">회원가입</a></p>
+            <input id="pw_check" type="password" placeholder="비밀번호 확인"/>
+            <p id="button">회원가입</p>
+            <p class="message">이미 회원이십니까 ? <a href="/login">로그인</a></p>
           </form>
         </div>
       </div>
